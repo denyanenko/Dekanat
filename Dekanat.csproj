@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.props" Condition="Exists('packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5401AF1F-3387-4D59-A284-2935B8600B33}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Dekanat</RootNamespace>
+    <AssemblyName>Dekanat</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reflection.TypeExtensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.TypeExtensions.4.3.0\lib\net462\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.XmlDocument, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Xml.XmlDocument.4.3.0\lib\net46\System.Xml.XmlDocument.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDisciplines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDisciplines.Designer.cs">
+      <DependentUpon>AddDisciplines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDisciplinesToGrupa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDisciplinesToGrupa.Designer.cs">
+      <DependentUpon>AddDisciplinesToGrupa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentForm.Designer.cs">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base.cs" />
+    <Compile Include="DBEmulation.cs" />
+    <Compile Include="Dekanat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dekanat.Designer.cs">
+      <DependentUpon>Dekanat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Discipline.cs" />
+    <Compile Include="DisciplineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisciplineForm.Designer.cs">
+      <DependentUpon>DisciplineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupChange.Designer.cs">
+      <DependentUpon>GrupChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupForm.Designer.cs">
+      <DependentUpon>GrupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grupa.cs" />
+    <Compile Include="People.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="StudentModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentModify.Designer.cs">
+      <DependentUpon>StudentModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsGrupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsGrupForm.Designer.cs">
+      <DependentUpon>StudentsGrupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentToGrupa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentToGrupa.Designer.cs">
+      <DependentUpon>AddStudentToGrupa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudyDiscipline.cs" />
+    <Compile Include="StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm.Designer.cs">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDisciplines.resx">
+      <DependentUpon>AddDisciplines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDisciplinesToGrupa.resx">
+      <DependentUpon>AddDisciplinesToGrupa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentForm.resx">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dekanat.resx">
+      <DependentUpon>Dekanat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisciplineForm.resx">
+      <DependentUpon>DisciplineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupChange.resx">
+      <DependentUpon>GrupChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupForm.resx">
+      <DependentUpon>GrupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StudentModify.resx">
+      <DependentUpon>StudentModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsGrupForm.resx">
+      <DependentUpon>StudentsGrupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentToGrupa.resx">
+      <DependentUpon>AddStudentToGrupa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.targets" Condition="Exists('packages\Xamarin.Forms.5.0.0.2478\build\Xamarin.Forms.targets')" />
+</Project>
