@@ -63,100 +63,100 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDisciplines.cs">
+    <Compile Include="Forms\AddDisciplines.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddDisciplines.Designer.cs">
+    <Compile Include="Forms\AddDisciplines.Designer.cs">
       <DependentUpon>AddDisciplines.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddDisciplinesToGrupa.cs">
+    <Compile Include="Forms\AddDisciplinesToGrupa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddDisciplinesToGrupa.Designer.cs">
+    <Compile Include="Forms\AddDisciplinesToGrupa.Designer.cs">
       <DependentUpon>AddDisciplinesToGrupa.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddStudentForm.cs">
+    <Compile Include="Forms\AddStudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddStudentForm.Designer.cs">
+    <Compile Include="Forms\AddStudentForm.Designer.cs">
       <DependentUpon>AddStudentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base.cs" />
+    <Compile Include="Models\Base.cs" />
     <Compile Include="DBEmulation.cs" />
-    <Compile Include="Dekanat.cs">
+    <Compile Include="Forms\Dekanat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dekanat.Designer.cs">
+    <Compile Include="Forms\Dekanat.Designer.cs">
       <DependentUpon>Dekanat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Discipline.cs" />
-    <Compile Include="DisciplineForm.cs">
+    <Compile Include="Models\Discipline.cs" />
+    <Compile Include="Forms\DisciplineForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DisciplineForm.Designer.cs">
+    <Compile Include="Forms\DisciplineForm.Designer.cs">
       <DependentUpon>DisciplineForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GrupChange.cs">
+    <Compile Include="Forms\GrupChange.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GrupChange.Designer.cs">
+    <Compile Include="Forms\GrupChange.Designer.cs">
       <DependentUpon>GrupChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="GrupForm.cs">
+    <Compile Include="Forms\GrupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GrupForm.Designer.cs">
+    <Compile Include="Forms\GrupForm.Designer.cs">
       <DependentUpon>GrupForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Grupa.cs" />
-    <Compile Include="People.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Models\Grupa.cs" />
+    <Compile Include="Models\People.cs" />
+    <Compile Include="Models\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentModify.cs">
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Forms\StudentModify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentModify.Designer.cs">
+    <Compile Include="Forms\StudentModify.Designer.cs">
       <DependentUpon>StudentModify.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentsGrupForm.cs">
+    <Compile Include="Forms\StudentsGrupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentsGrupForm.Designer.cs">
+    <Compile Include="Forms\StudentsGrupForm.Designer.cs">
       <DependentUpon>StudentsGrupForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddStudentToGrupa.cs">
+    <Compile Include="Forms\AddStudentToGrupa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddStudentToGrupa.Designer.cs">
+    <Compile Include="Forms\AddStudentToGrupa.Designer.cs">
       <DependentUpon>AddStudentToGrupa.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudyDiscipline.cs" />
-    <Compile Include="StudentForm.cs">
+    <Compile Include="Models\StudyDiscipline.cs" />
+    <Compile Include="Forms\StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm.Designer.cs">
+    <Compile Include="Forms\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddDisciplines.resx">
+    <EmbeddedResource Include="Forms\AddDisciplines.resx">
       <DependentUpon>AddDisciplines.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddDisciplinesToGrupa.resx">
+    <EmbeddedResource Include="Forms\AddDisciplinesToGrupa.resx">
       <DependentUpon>AddDisciplinesToGrupa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddStudentForm.resx">
+    <EmbeddedResource Include="Forms\AddStudentForm.resx">
       <DependentUpon>AddStudentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dekanat.resx">
+    <EmbeddedResource Include="Forms\Dekanat.resx">
       <DependentUpon>Dekanat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DisciplineForm.resx">
+    <EmbeddedResource Include="Forms\DisciplineForm.resx">
       <DependentUpon>DisciplineForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GrupChange.resx">
+    <EmbeddedResource Include="Forms\GrupChange.resx">
       <DependentUpon>GrupChange.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GrupForm.resx">
+    <EmbeddedResource Include="Forms\GrupForm.resx">
       <DependentUpon>GrupForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -168,16 +168,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StudentModify.resx">
+    <EmbeddedResource Include="Forms\StudentModify.resx">
       <DependentUpon>StudentModify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentsGrupForm.resx">
+    <EmbeddedResource Include="Forms\StudentsGrupForm.resx">
       <DependentUpon>StudentsGrupForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddStudentToGrupa.resx">
+    <EmbeddedResource Include="Forms\AddStudentToGrupa.resx">
       <DependentUpon>AddStudentToGrupa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm.resx">
+    <EmbeddedResource Include="Forms\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -194,6 +194,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
